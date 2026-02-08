@@ -32,7 +32,7 @@ export default function Hero() {
                         <div className="flex flex-wrap gap-3 text-xs font-semibold text-slate-500 pt-1">
                             <div className="flex items-center gap-1.5 bg-slate-100 px-2 py-1 rounded">
                                 <Calendar className="w-3.5 h-3.5 text-[#C5A065]" />
-                                <span>04/03 (Terça)</span>
+                                <span>04/03 (Quarta)</span>
                             </div>
                             <div className="flex items-center gap-1.5 bg-slate-100 px-2 py-1 rounded">
                                 <Clock className="w-3.5 h-3.5 text-[#C5A065]" />
