@@ -36,7 +36,7 @@ export default function Hero() {
                             </div>
                             <div className="flex items-center gap-1.5 bg-slate-100 px-2 py-1 rounded">
                                 <Clock className="w-3.5 h-3.5 text-[#C5A065]" />
-                                <span>20h • Online e Ao vivo no Zoom</span>
+                                <span>20h • On-line, Gratuita, e ao vivo no zoom</span>
                             </div>
                         </div>
                     </div>
