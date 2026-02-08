@@ -44,7 +44,7 @@ export default function Hero() {
                     {/* Mystery Block - Compact & Elegant */}
                     <div className="border-l-2 border-[#C5A065] pl-4 md:pl-6 py-1">
                         <h2 className="text-xs md:text-sm font-bold text-[#0B1120] font-playfair mb-3 uppercase tracking-wide">
-                            EU NÃO VOU ENTREGAR APENAS CONTEÚDO:
+                            EU NÃO VOU ENTREGAR APENAS CONTEÚDO, VOU TE ENTREGAR ACESSO.
                         </h2>
 
                         <ul className="space-y-3 mb-4">
