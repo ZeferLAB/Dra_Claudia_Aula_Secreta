@@ -43,8 +43,8 @@ export default function Hero() {
 
                     {/* Mystery Block - Compact & Elegant */}
                     <div className="border-l-2 border-[#C5A065] pl-4 md:pl-6 py-1">
-                        <h2 className="text-sm md:text-base font-bold text-[#0B1120] font-playfair mb-3 uppercase tracking-wide">
-                            NESTA SESSÃO, NÃO VOU ENTREGAR APENAS CONTEÚDO. <br className="hidden md:block" />VOU ENTREGAR ACESSO.
+                        <h2 className="text-xs md:text-sm font-bold text-[#0B1120] font-playfair mb-3 uppercase tracking-wide">
+                            EU NÃO VOU ENTREGAR APENAS CONTEÚDO.
                         </h2>
 
                         <ul className="space-y-3 mb-4">
@@ -62,9 +62,14 @@ export default function Hero() {
                             </li>
                         </ul>
 
-                        <p className="text-xs text-[#0B1120] font-bold bg-[#C5A065]/10 p-2 rounded border border-[#C5A065]/20 inline-block">
-                            🔒 Atenção: A revelação completa e os critérios para concorrer serão feitos EXCLUSIVAMENTE dentro do Grupo VIP.
-                        </p>
+                        <div className="flex flex-col gap-2">
+                            <p className="text-xs text-[#0B1120] font-bold bg-[#C5A065]/10 p-2 rounded border border-[#C5A065]/20 inline-block">
+                                🔒 Atenção: A revelação completa e os critérios para concorrer serão feitos EXCLUSIVAMENTE dentro do Grupo VIP.
+                            </p>
+                            <p className="text-xs text-red-700 font-bold flex items-center gap-1.5">
+                                ⚠️ Vagas limitadas pela capacidade da sala do Zoom.
+                            </p>
+                        </div>
                     </div>
 
                     {/* CTA Button */}
