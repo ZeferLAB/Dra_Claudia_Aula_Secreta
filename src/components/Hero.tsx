@@ -79,16 +79,23 @@ export default function Hero() {
 
                 </div>
 
-                {/* Right Column: Image Placeholder - Taller to balance */}
-                <div className="hidden md:block w-[45%] h-[85vh] relative rounded-lg overflow-hidden shadow-2xl bg-slate-200 self-start mt-4">
-                    {/* Placeholder Graphic */}
-                    <div className="absolute inset-0 bg-neutral-200 flex flex-col items-center justify-center text-slate-400">
-                        <span className="text-sm uppercase tracking-widest font-medium mb-2">[FOTO DA ESPECIALISTA]</span>
-                        <span className="text-xs text-slate-400 opacity-60">Sugestão: Foto em pé, jaleco ou social elegante</span>
-                    </div>
+                {/* Right Column: Image */}
+                <div className="block w-full md:w-[45%] h-[450px] md:h-[85vh] relative rounded-lg overflow-hidden shadow-2xl self-start mt-8 md:mt-4 group">
+                    <div className="absolute inset-0 bg-[#0B1120]/10 z-10 group-hover:bg-transparent transition-colors duration-500"></div>
+                    <img
+                        src="/dra-claudia.png"
+                        alt="Dra. Claudia Chagas"
+                        className="object-cover w-full h-full object-top"
+                    />
 
                     {/* Gradient Overlay at bottom */}
-                    <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/80 to-transparent z-20"></div>
+
+                    {/* Name Badge */}
+                    <div className="absolute bottom-6 left-6 z-30">
+                        <p className="text-white font-playfair font-bold text-lg">Dra. Claudia Chagas</p>
+                        <p className="text-[#C5A065] text-xs font-medium tracking-wider">Referência em Tireoide</p>
+                    </div>
                 </div>
 
             </div>
