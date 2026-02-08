@@ -36,7 +36,7 @@ export default function Hero() {
                             </div>
                             <div className="flex items-center gap-1.5 bg-slate-100 px-2 py-1 rounded">
                                 <Clock className="w-3.5 h-3.5 text-[#C5A065]" />
-                                <span>20h • On-line, Gratuita, e ao vivo no zoom</span>
+                                <span>20h • On-line, Gratuita, e Ao Vivo no Zoom</span>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ export default function Hero() {
                     {/* Mystery Block - Compact & Elegant */}
                     <div className="border-l-2 border-[#C5A065] pl-4 md:pl-6 py-1">
                         <h2 className="text-xs md:text-sm font-bold text-[#0B1120] font-playfair mb-3 uppercase tracking-wide">
-                            EU NÃO VOU ENTREGAR APENAS CONTEÚDO.
+                            EU NÃO VOU ENTREGAR APENAS CONTEÚDO:
                         </h2>
 
                         <ul className="space-y-3 mb-4">
@@ -73,7 +73,7 @@ export default function Hero() {
                     </div>
 
                     {/* CTA Button */}
-                    <div className="w-full flex justify-center pt-4">
+                    <div className="w-full flex justify-center pt-0">
                         <Link
                             href="https://chat.whatsapp.com/SEU_LINK_AQUI"
                             className="inline-flex w-full sm:w-auto min-w-[300px] items-center justify-center px-8 py-4 text-sm font-bold text-white text-center transition-all duration-200 bg-[#25D366] rounded-full shadow-md hover:bg-[#128C7E] hover:shadow-lg hover:-translate-y-0.5 uppercase tracking-wide"
