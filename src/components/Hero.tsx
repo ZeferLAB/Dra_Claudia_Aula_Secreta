@@ -5,8 +5,8 @@ export default function Hero() {
     return (
         <section className="relative min-h-screen w-full bg-[#FAFAFA] flex flex-col overflow-hidden">
 
-            {/* Top Bar - Ultra Slim -> Now Thicker */}
-            <div className="w-full bg-[#0B1120] py-6 px-4 text-center border-b border-[#C5A065]/20 shrink-0">
+            {/* Top Bar - Ultra Slim */}
+            <div className="w-full bg-[#0B1120] py-2 px-4 text-center border-b border-[#C5A065]/20 shrink-0">
                 <p className="text-[#C5A065] text-xs md:text-sm font-medium tracking-wide font-serif">
                     Aula Exclusiva para Médicos - Um convite especial para ex-alunos
                 </p>
