@@ -75,7 +75,7 @@ export default function Hero() {
                     {/* CTA Button */}
                     <div className="w-full flex justify-center pt-0">
                         <Link
-                            href="https://chat.whatsapp.com/SEU_LINK_AQUI"
+                            href="https://chat.whatsapp.com/CfFw8SrcfNGCfrG44WlFQW"
                             className="inline-flex w-full sm:w-auto min-w-[300px] items-center justify-center px-8 py-4 text-sm font-bold text-white text-center transition-all duration-200 bg-[#25D366] rounded-full shadow-md hover:bg-[#128C7E] hover:shadow-lg hover:-translate-y-0.5 uppercase tracking-wide"
                         >
                             GARANTIR MEU ACESSO AO GRUPO EXCLUSIVO
