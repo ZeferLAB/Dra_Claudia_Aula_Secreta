@@ -17,7 +17,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Sessão Clínica Fechada | Dra. Claudia Chagas',
-  description: 'Mentoria Experimental: Sessão Clínica Fechada. Participe da aula secreta e exclusiva sobre casos complexos de Tireoide.',
+  description: 'Sessão Clínica Fechada. Participe da aula secreta e exclusiva sobre casos complexos de Tireoide.',
 };
 
 export default function RootLayout({
